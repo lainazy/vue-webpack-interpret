@@ -1,0 +1,14 @@
+{
+  "presets": [ //预设转码规则，相当于预先设置了一堆plugins，babel-plugin-前缀可以被忽略
+    ["env", { "modules": false }], //自动根据支持的环境设置需要的babel插件，modules设置为false表示不将es2015模块转换为其他模块类型，默认为转换成commonjs类型
+    "stage-2" //设置stage-2中包含的插件
+  ],
+  "plugins": ["transform-runtime"], //设置presets中不提供的插件，推荐使用babel-plugin-transform-runtime插件
+  "comments": false, //设置不输出注释
+  "env": { //设置指定环境使用指定插件
+    "test": { //test环境
+      "presets": ["env", "stage-2"],
+      "plugins": [ "istanbul" ] //设置test环境使用babel-plugin-istanbul插件，用来测试代码覆盖率
+    }
+  }
+}
