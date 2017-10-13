@@ -1,0 +1,80 @@
+# 参考资料
+
+- package.json
+  - [package.json属性详解](http://www.cnblogs.com/tzyy/p/5193811.html)
+  - [npm模块加载机制详解](http://www.siguoya.name/pc/home/article/252)
+- config/index.js
+  - [Node.js入门 - path对象](http://www.cnblogs.com/vajoy/p/4781052.html)
+  - [菜鸟 - Node.js Path模块](http://www.runoob.com/nodejs/nodejs-path-module.html)
+  - [简书 - dev环境proxyTable配置](http://www.jianshu.com/p/95b2caf7e0da)
+  - [Github - http-proxy-middleware中间件](https://github.com/chimurai/http-proxy-middleware)
+  - [proxyTable配置示例](https://vuejs-templates.github.io/webpack/proxy.html)
+- build/check-versions.js
+  - [Node.js API文档 - child_process子进程](http://nodejs.cn/api/child_process.html)
+  - [Node.js入门 - process对象](http://www.cnblogs.com/vajoy/p/4783390.html)
+  - [Node.js入门 - process简介说明](http://www.cnblogs.com/softlover/archive/2012/10/03/2707139.html)
+  - [Awesome - node-semver模块](https://www.awesomes.cn/repo/npm/node-semver)
+  - [Github - chalk模块](https://github.com/chalk/chalk)
+- build/dev-client.js
+  - [Github - eventsource-polyfill插件](https://github.com/amvtek/EventSource)
+- build/dev-server.js
+  - [Github - opn插件](https://github.com/sindresorhus/opn)
+  - [菜鸟 - Node.js Express框架](http://www.runoob.com/nodejs/nodejs-express-framework.html)
+  - [Express 4.x API 中文手册](http://www.expressjs.com.cn/4x/api.html)
+  - [Github - webpack-dev-middleware中间件](https://github.com/webpack/webpack-dev-middleware)
+  - [Github - webpack-hot-middleware中间件](https://github.com/glenjamin/webpack-hot-middleware)
+  - [Github - connect-history-api-fallback库](https://github.com/bripkens/connect-history-api-fallback)
+  - [Segmentfault - connect-history-api-fallback分析](https://segmentfault.com/a/1190000007890379)
+- build/build.js
+  - [Github - ora插件](https://github.com/sindresorhus/ora)
+  - [Github - rimraf](https://github.com/isaacs/rimraf)
+- build/webpack.base.conf.js
+  - [Webpack2中文文档](http://www.css88.com/doc/webpack2/)
+  - [简书 - 入门Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f)
+  - [Segmentfault - Webpack入门指迷](https://segmentfault.com/a/1190000002551952)
+  - [Webpack配置选项](https://webpack.vuefe.cn/configuration/)
+  - [Github - eslint-loader插件](https://github.com/MoOx/eslint-loader)
+  - [Github - eslint-friendly-formatter插件](https://github.com/royriojas/eslint-friendly-formatter)
+  - [Github - vue-loader插件](https://github.com/vuejs/vue-loader)
+  - [Github - babel-loader插件](https://github.com/babel/babel-loader)
+  - [Github - url-loader插件](https://github.com/webpack-contrib/url-loader)
+- build/webpack.dev.conf.js
+  - [Github - webpack-merge插件](https://github.com/survivejs/webpack-merge)
+  - [博客园 - html-webpack-plugin详解](http://www.cnblogs.com/wonyun/p/6030090.html)
+  - [Segmentfault - html-webpack-plugin用法全解](https://segmentfault.com/a/1190000007294861)
+  - [Github - html-webpack-plugin插件](https://github.com/jantimon/html-webpack-plugin)
+  - [Github - friendly-errors-webpack-plugin插件](https://github.com/geowarin/friendly-errors-webpack-plugin)
+  - [博客园 - webpack devtool配置对比](http://www.cnblogs.com/hhhyaaon/p/5657469.html)
+- build/webpack.prod.conf.js
+  - [Github - copy-webpack-plugin插件](https://github.com/kevlened/copy-webpack-plugin)
+  - [Github - optimize-css-assets-webpack-plugin插件](https://github.com/NMFR/optimize-css-assets-webpack-plugin)
+  - [Webpack内置插件列表](http://webpack.github.io/docs/list-of-plugins.html)
+  - [博客园 - CommonsChunkPlugin插件总结](http://www.cnblogs.com/pspgbhu/p/6262477.html)
+  - [Github - compression-webpack-plugin插件](https://github.com/webpack-contrib/compression-webpack-plugin)
+  - [Github - webpack-bundle-analyzer插件](https://github.com/th0r/webpack-bundle-analyzer)
+- build/utils.js
+  - [Github - extract-text-webpack-plugin插件](https://github.com/webpack-contrib/extract-text-webpack-plugin)
+  - [Github - css-loader插件](https://github.com/webpack-contrib/css-loader)
+  - [Github - style-loader插件](https://github.com/webpack-contrib/style-loader)
+  - [Github - sass-loader插件](https://github.com/webpack-contrib/sass-loader)
+  - [Github - less-loader插件](https://github.com/webpack-contrib/less-loader)
+  - [Github - stylus-loader插件](https://github.com/shama/stylus-loader)
+- .eslintrc.js
+  - [ESLint配置文档](http://eslint.org/docs/user-guide/configuring)
+  - [Github - babel-eslint插件](https://github.com/babel/babel-eslint)
+  - [Github - standard插件](https://github.com/feross/standard)
+- .babelrc
+  - [Babel · Plugins官方文档](https://babeljs.io/docs/plugins/)
+  - [如何写好.babelrc](https://zhuanlan.zhihu.com/p/24224107)
+  - [Github - babel-preset-env插件](https://github.com/babel/babel-preset-env)
+  - [Babel-plugin-transform-runtime插件](http://babeljs.io/docs/plugins/transform-runtime/)
+  - [Segmentfault - babel的polyfill和runtime的区别](https://segmentfault.com/q/1010000005596587)
+  - [Github - babel-plugin-istanbul插件](https://github.com/istanbuljs/babel-plugin-istanbul)
+- .postcssrc.js
+  - [Github - browserslist插件](https://github.com/ai/browserslist)
+
+---
+
+- recommendation
+  - [Segmentfault - vue-cli webpack配置分析](https://segmentfault.com/a/1190000008644830)
+  - [博客园 - 一步步构造自己的vue2.0+webpack环境](http://www.cnblogs.com/wj204/p/6031435.html)
